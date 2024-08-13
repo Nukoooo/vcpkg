@@ -203,7 +203,7 @@ if(INSTALL_HEADERS)
         )
     endif()
     install(
-        DIRECTORY src/client src/common src/google_breakpad
+        DIRECTORY src/client src/common src/google_breakpad src/processor/
         DESTINATION include/
         FILES_MATCHING
         PATTERN "*.h"
